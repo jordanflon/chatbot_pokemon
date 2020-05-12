@@ -1,0 +1,73 @@
+{"intents" : [
+  {
+    "tag": "bonjour",
+    "patterns": ["Salut", "Bonjour", "Hey", "Hello"],
+    "responses":["Salut !", "Bonjour !", "Hello !"],
+    "context_set":""
+  },
+  {
+    "tag": "au revoir",
+    "patterns": ["Au revoir", "Je quitte", "A une prochaine fois", "Bye", "Bye bye", "Je m'en vais"],
+    "responses": ["A une prochaine fois ! ", "Au revoir !", "Bye bye !"],
+    "context_set": ""
+  },
+  {
+    "tag": "caracteristiques",
+    "patterns":["caractéristique","caractéristique","caractéristiques", "statistiques", "bases",
+                "Caracteristiques", "Statistiques de base", "Statistiques", "Stats", "donnees", "vitesse", "Attaque",
+                "Attaque Speciale", "Defense Speciale", "Points de vie", "POint de Vie", "Atq", "Atk", "Def", "Vit", "HP", "PV"
+                ],
+    "responses":["Pokemon"],
+    "context_set":""
+  },
+  {
+    "tag": "type",
+    "patterns" : [ "Type", "type", "type", "type de" , "type de" , "type" ,"type de" ,"est le type" ],
+    "responses" : ["type"],
+    "context_set":""
+  },
+  {
+    "tag": "evolution",
+    "patterns":["evolutions", "evolution", "evolutions", "l'evolution ", "evolue", "l'evolution",
+                "evolue", "evolue", "evolution", "l'evolution", "les evolutions"],
+    "responses": [],
+    "context_set": ""
+  },
+  {
+    "tag": "description",
+    "patterns":["description", "description", "description", "Description", "description", "la description",
+                "Comment"],
+    "responses": [],
+    "context_set": ""
+  },
+  {
+    "tag": "talent",
+    "patterns":["talent", "talent", "capacite speciale", "capacite speciale", "talent", "talent"],
+    "responses": [],
+    "context_set": ""
+  },
+  {
+    "tag" : "zouk",
+    "patterns":["meilleure danse", "Danse de couple", "Comment je danse ?", "danse"],
+    "responses": [],
+    "context_set":""
+  },
+  {
+    "tag" : "news",
+    "patterns": ["informations", "information sur Pokemon", "news", "actualite", "actualites"],
+    "responses": [],
+    "context_set":""
+  },
+  {
+    "tag" : "jeux",
+    "patterns": ["jeu", "jeux", "jeu Pokemon", "jeux Pokemon" ,"jeux pokemon", "jeu pokemon", "Emeraude" , "Jaune", "Rubis"],
+    "responses": [],
+    "context_set":""
+  },
+  {
+    "tag" : "age",
+    "patterns": ["age", "age", "années vis tu", "Age"],
+    "responses": [],
+    "context_set":""
+  }
+  ]}
